@@ -1,0 +1,49 @@
+﻿@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Dnn Mvc Ajax Handler</title>
+    <link href="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Content/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Content/css/overwrite.css" rel="stylesheet" />
+    <link href="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Content/css/Loading.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Dnn Mvc Ajax Handler", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+
+        </div>
+    </div>
+    <div class="container body-content">
+        <div id="mvcContainer-@Dnn.ActiveModule.ModuleID">
+            @RenderBody()
+        </div>
+        <hr />
+        <footer>
+            <p>Dnn Mvc AjaxHandler by <a href="http://codeblock.ir/" target="_blank">Hamed Shirbandi</a> </p>
+            <p>See project on <a href="https://github.com/hamed-shirbandi/DnnMvcAjaxHandler" target="_blank"> github</a> </p>
+
+        </footer>
+    </div>
+    <input type="hidden" value="@Dnn.ModuleContext.ModuleId" id="dnn-module-id" />
+    <input type="hidden" value="@Dnn.ModuleContext.TabId" id="dnn-module-tab-id" />
+    <input type="hidden" value="@Dnn.ActivePage.FullUrl" id="dnn-active-page-full-url" />
+    <script src="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Scripts/bootstrap.js"></script>
+    <script src="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Scripts/bootbox/bootbox.min.js"></script>
+    <script src="~/DesktopModules/mvc/DnnMvcAjaxHandler/DnnMvcAjaxHandlerExample/Scripts/noty/jquery.noty.packaged.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+

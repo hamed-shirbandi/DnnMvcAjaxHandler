@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMvcAjaxHandler", "DnnMvcAjaxHandler\DnnMvcAjaxHandler.csproj", "{D42158C3-F923-4963-B4EE-D158175CFDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMvcAjaxHandler.Test", "DnnMvcAjaxHandler.Test\DnnMvcAjaxHandler.Test.csproj", "{2E8FA4F4-BD52-42E5-80A7-FE7E9002B2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnnMvcAjaxHandlerExample", "DnnMvcAjaxHandlerExample\DnnMvcAjaxHandlerExample.csproj", "{1645A53F-4284-4FAD-A0D9-F5987AEDEC23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D42158C3-F923-4963-B4EE-D158175CFDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42158C3-F923-4963-B4EE-D158175CFDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42158C3-F923-4963-B4EE-D158175CFDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42158C3-F923-4963-B4EE-D158175CFDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8FA4F4-BD52-42E5-80A7-FE7E9002B2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8FA4F4-BD52-42E5-80A7-FE7E9002B2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8FA4F4-BD52-42E5-80A7-FE7E9002B2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8FA4F4-BD52-42E5-80A7-FE7E9002B2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1645A53F-4284-4FAD-A0D9-F5987AEDEC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1645A53F-4284-4FAD-A0D9-F5987AEDEC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1645A53F-4284-4FAD-A0D9-F5987AEDEC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1645A53F-4284-4FAD-A0D9-F5987AEDEC23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

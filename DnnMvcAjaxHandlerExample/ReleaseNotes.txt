@@ -1,0 +1,18 @@
+﻿<h3>DnnMvcAjaxHandlerExample</h3>
+<p class="Contributor">
+
+</p>
+<hr/>
+<div class="License">
+	<h3>About the DnnMvcAjaxHandlerExample</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+	</ul>
+	
+</div>
