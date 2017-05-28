@@ -111,6 +111,9 @@
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\icomoon.svg" />
+    <Content Include="Content\img\screenShots\Screenshot-1.png" />
+    <Content Include="Content\img\screenShots\Screenshot-2.png" />
+    <Content Include="Content\img\screenShots\Screenshot-3.png" />
     <Content Include="License.txt" />
     <Content Include="ReleaseNotes.txt" />
     <Content Include="Scripts\bootbox\bootbox.min.js" />
