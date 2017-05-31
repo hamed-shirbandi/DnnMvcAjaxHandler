@@ -7,9 +7,10 @@ whit this library we can use Ajax.ActonLink and BeginForm and Pagination and ...
 
 How to use ?
 -------------------
-1) add dnnAjaxHandler.js and jquery.noty.packaged.min.js and bootbox.min.js to layout
-2) add  DnnMvcAjaxHandle namespace to view
-3) use AjaxHandler class and call its methods like BeginForm and ActionLink and PagedListPager and CheckedChange
+1) refrence DnnMvcAjaxHandler.dll to your project.
+2) add dnnAjaxHandler.js and jquery.noty.packaged.min.js and bootbox.min.js to layout
+3) add  DnnMvcAjaxHandle namespace to view
+4) use AjaxHandler class and call its methods like BeginForm and ActionLink and PagedListPager and CheckedChange
 
 BeginForm 
 -------------------
