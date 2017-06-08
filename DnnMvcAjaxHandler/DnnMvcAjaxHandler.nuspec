@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<package >
+<metadata>
+<id>$id$</id>
+
+<version>$version$</version>
+<title>$title$</title>
+<authors>$author$</authors>
+<owners>$author$</owners>
+<projectUrl>https://github.com/hamed-shirbandi/DnnMvcAjaxHandler</projectUrl>
+<requireLicenseAcceptance>false</requireLicenseAcceptance>
+<description>$description$</description>
+<copyright>Copyright 2017 codeblock.ir</copyright>
+<tags>dnn dotnetnuke ajax handler ajax</tags>
+<dependencies/>
+</metadata>
+<files>
+<file src="Readme.txt" target=""/>
+<file src="..\DnnMvcAjaxHandlerExample\Content\css\bootstrap.min.css" target="Scripts\dnnAjaxHandler\"/>
+<file src="..\DnnMvcAjaxHandlerExample\Content\css\Style.css" target="Scripts\dnnAjaxHandler\"/>
+<file src="..\DnnMvcAjaxHandlerExample\Scripts\dnnAjaxHandler\dnnAjaxHandler.js" target="Scripts\dnnAjaxHandler\"/>
+<file src="..\DnnMvcAjaxHandlerExample\Scripts\bootbox\bootbox.min.js" target="Scripts\dnnAjaxHandler\"/>
+<file src="..\DnnMvcAjaxHandlerExample\Scripts\noty\jquery.noty.packaged.min.js" target="Scripts\dnnAjaxHandler\"/>
+</files>
+</package>

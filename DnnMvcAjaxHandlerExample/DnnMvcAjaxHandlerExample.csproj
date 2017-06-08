@@ -106,8 +106,7 @@
     <Content Include="BuildScripts\MSBuild.Community.Tasks.dll" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
-    <Content Include="Content\css\Loading.css" />
-    <Content Include="Content\css\overwrite.css" />
+    <Content Include="Content\css\Style.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\fonts\icomoon.svg" />

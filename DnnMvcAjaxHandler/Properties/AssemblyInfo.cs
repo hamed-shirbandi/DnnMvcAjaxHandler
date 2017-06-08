@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DnnMvcAjaxHandler")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("ajax handler to use in dnn mvc modules")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("codeblock")]
+[assembly: AssemblyCompany("hamed shirbandi")]
 [assembly: AssemblyProduct("DnnMvcAjaxHandler")]
-[assembly: AssemblyCopyright("Copyright © codeblock   2017")]
+[assembly: AssemblyCopyright("Copyright © codeblock.ir 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
