@@ -7,7 +7,7 @@ whit this library we can use Ajax.ActonLink and BeginForm and Pagination and ...
 
 To install DnnMvcAjaxHandler, run the following command in the Package Manager Console
 ```code
-pm> Install-Package MvcPagedList
+pm> Install-Package DnnMvcAjaxHandler
 ```
 You can also view the [package page](https://www.nuget.org/packages/DnnMvcAjaxHandler/) on NuGet.
 
