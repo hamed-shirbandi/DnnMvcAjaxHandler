@@ -16,11 +16,11 @@
 <dependencies/>
 </metadata>
 <files>
+<file src="..\DnnMvcAjaxHandlerExample\Content\css\bootstrap.min.css" target="Content\Scripts\dnnAjaxHandler"/>
+<file src="..\DnnMvcAjaxHandlerExample\Content\css\Style.css" target="Content\Scripts\dnnAjaxHandler"/>
+<file src="..\DnnMvcAjaxHandlerExample\Scripts\dnnAjaxHandler\dnnAjaxHandler.js" target="Content\Scripts\dnnAjaxHandler"/>
+<file src="..\DnnMvcAjaxHandlerExample\Scripts\bootbox\bootbox.min.js" target="Content\Scripts\dnnAjaxHandler"/>
+<file src="..\DnnMvcAjaxHandlerExample\Scripts\noty\jquery.noty.packaged.min.js" target="Content\Scripts\dnnAjaxHandler"/>
 <file src="Readme.txt" target=""/>
-<file src="..\DnnMvcAjaxHandlerExample\Content\css\bootstrap.min.css" target="Scripts\dnnAjaxHandler\"/>
-<file src="..\DnnMvcAjaxHandlerExample\Content\css\Style.css" target="Scripts\dnnAjaxHandler\"/>
-<file src="..\DnnMvcAjaxHandlerExample\Scripts\dnnAjaxHandler\dnnAjaxHandler.js" target="Scripts\dnnAjaxHandler\"/>
-<file src="..\DnnMvcAjaxHandlerExample\Scripts\bootbox\bootbox.min.js" target="Scripts\dnnAjaxHandler\"/>
-<file src="..\DnnMvcAjaxHandlerExample\Scripts\noty\jquery.noty.packaged.min.js" target="Scripts\dnnAjaxHandler\"/>
 </files>
 </package>
