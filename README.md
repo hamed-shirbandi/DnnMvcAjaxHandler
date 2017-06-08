@@ -1,16 +1,23 @@
-What is this ?
--------------------
+# What is this ?
+
 dnn mvc module not support Mvc Ajax and this make every thing hard to implement and jquery make us angry !
 whit this library we can use Ajax.ActonLink and BeginForm and Pagination and ... in dnn mvc module
 
+# Install via NuGet
+
+To install DnnMvcAjaxHandler, run the following command in the Package Manager Console
+```code
+pm> Install-Package DnnMvcAjaxHandler
+```
+You can also view the [package page](https://www.nuget.org/packages/DnnMvcAjaxHandler/) on NuGet.
 
 
-How to use ?
--------------------
-1) refrence DnnMvcAjaxHandler.dll to your project.
-2) add dnnAjaxHandler.js and jquery.noty.packaged.min.js and bootbox.min.js to layout
-3) add  DnnMvcAjaxHandle namespace to view
-4) use AjaxHandler class and call its methods like BeginForm and ActionLink and PagedListPager and CheckedChange
+#How to use ?
+
+1) install package via nuget.
+2) add refrence to style and script files at Scripts/dnnAjaxHandler path to your layout cshtml.
+3) add  DnnMvcAjaxHandle namespace to view.
+4) use AjaxHandler class and call its methods like BeginForm and ActionLink and PagedListPager and CheckedChange.
 
 BeginForm 
 -------------------
