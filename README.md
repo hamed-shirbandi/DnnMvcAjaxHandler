@@ -21,7 +21,7 @@ You can also view the [package page](https://www.nuget.org/packages/DnnMvcAjaxHa
 
 BeginForm 
 -------------------
-to submit form you must implement html like bellow that have container with an id then pas that id to BeginForm:
+to submit form you must implement html like bellow that have container with an id then pass that id to BeginForm:
 ```code
 <div id="search-form" class="form-inline">
             <div class="form-group">
