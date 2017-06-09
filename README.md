@@ -1,7 +1,7 @@
 # What is this ?
 
 dnn mvc module not support Mvc Ajax and this make every thing hard to implement and jquery make us angry !
-whit this library we can use Ajax.ActonLink and BeginForm and Pagination and ... in dnn mvc module
+with this library we can use Ajax.ActonLink and BeginForm and Pagination and ... in dnn mvc module
 
 # Install via NuGet
 
