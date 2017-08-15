@@ -18,7 +18,11 @@ You can also view the [package page](https://www.nuget.org/packages/DnnMvcAjaxHa
 2) add refrence to style and script files at Scripts/dnnAjaxHandler path to your layout cshtml.
 3) add  DnnMvcAjaxHandle namespace to view.
 4) use AjaxHandler class and call its methods like BeginForm and ActionLink and PagedListPager and CheckedChange.
-
+5) add this 2 lines to your layout
+```code
+    <input type="hidden" value="@Dnn.ModuleContext.ModuleId" id="dnn-module-id" />
+    <input type="hidden" value="@Dnn.ModuleContext.TabId" id="dnn-module-tab-id" />
+```
 BeginForm 
 -------------------
 to submit form you must implement html like bellow that have container with an id then pass that id to BeginForm:
